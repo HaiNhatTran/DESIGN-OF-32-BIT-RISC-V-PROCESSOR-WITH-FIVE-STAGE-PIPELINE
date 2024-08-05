@@ -48,36 +48,37 @@ A detailed block diagram includes the following modules: the control unit with t
 ![image](https://github.com/user-attachments/assets/20f0e795-f9cf-4b8e-8a0d-480ef3d8d926)
 
 2.5. Simulation Results
+
 - Case 1 (0-20ns): System Reset
-rst = 1: All outputs are set to 0.
+  rst = 1: All outputs are set to 0.
 
 - Case 2 (20-100ns): Register File Write
-rst = 0
-20-60ns: RegWriteW = 0 (No write to register x3)
-60-100ns: RegWriteW = 1 (Value written to x3)
+  rst = 0
+  20-60ns: RegWriteW = 0 (No write to register x3)
+  60-100ns: RegWriteW = 1 (Value written to x3)
 
 - Case 3 (100-140ns): Load Instruction Control
-Control Signals:
-RegWriteE = 1, ResultSrcE = 1, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
-ALUControlE = 4’b0000 (Addition)
+  Control Signals:
+  RegWriteE = 1, ResultSrcE = 1, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
+  ALUControlE = 4’b0000 (Addition)
 
 - Case 4 (140-180ns): Store Instruction Control
-Control Signals:
-RegWriteE = 0, ResultSrcE = 0, MemWriteE = 1, BranchE = 0, ALUSrcE = 1
-ALUControlE = 4’b0000 (Addition)
+  Control Signals:
+  RegWriteE = 0, ResultSrcE = 0, MemWriteE = 1, BranchE = 0, ALUSrcE = 1
+  ALUControlE = 4’b0000 (Addition)
 
 - Case 5 (180-220ns): Branch Instruction Control
-Control Signals:
-RegWriteE = 0, ResultSrcE = 0, MemWriteE = 0, BranchE = 1, ALUSrcE = 0
-ALUControlE = 4’b0001 (Subtraction)
+  Control Signals:
+  RegWriteE = 0, ResultSrcE = 0, MemWriteE = 0, BranchE = 1, ALUSrcE = 0
+  ALUControlE = 4’b0001 (Subtraction)
 
 - Case 6 (220-260ns): Immediate Type Instruction Control
-Control Signals:
-RegWriteE = 1, ResultSrcE = 0, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
-ALUControlE = 4’b0000 (Addition)
+  Control Signals:
+  RegWriteE = 1, ResultSrcE = 0, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
+  ALUControlE = 4’b0000 (Addition)
 
 - Case 7 (260-300ns): R-type Instruction Control
-Control Signals:
-RegWriteE = 1, ResultSrcE = 0, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
-ALUControlE = 4’b0000 (Addition)
+  Control Signals:
+  RegWriteE = 1, ResultSrcE = 0, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
+  ALUControlE = 4’b0000 (Addition)
 
