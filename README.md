@@ -44,6 +44,7 @@ A detailed block diagram includes the following modules: the control unit with t
 ![image](https://github.com/user-attachments/assets/a158d802-08f7-4709-b239-afef20881ef3)
 
 2.4. The ALU control signal state table
+
 ![image](https://github.com/user-attachments/assets/20f0e795-f9cf-4b8e-8a0d-480ef3d8d926)
 
 2.5. Simulation Results
