@@ -83,3 +83,5 @@ A detailed block diagram includes the following modules: the control unit with t
   RegWriteE = 1, ResultSrcE = 0, MemWriteE = 0, BranchE = 0, ALUSrcE = 1
   ALUControlE = 4’b0000 (Addition)
 
+![image](https://github.com/user-attachments/assets/2149e435-c886-42ca-a85d-ff97d48dc782)
+
