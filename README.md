@@ -1,5 +1,4 @@
 # DESIGN-OF-32-BIT-RISC-V-PROCESSOR-WITH-FIVE-STAGE-PIPELINE
-
 1. Instruction Fetch
 
 1.1. Functions of the Instruction Fetch Stage
