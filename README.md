@@ -1,6 +1,7 @@
 # DESIGN-OF-32-BIT-RISC-V-PROCESSOR-WITH-FIVE-STAGE-PIPELINE
 
 1. Instruction Fetch
+
 1.1. Functions of the Instruction Fetch Stage
 - Fetching Instructions: The IF stage retrieves instructions from the program memory based on the value of the Program Counter (PC).
 - Updating the PC: After fetching the instruction, the PC is updated to point to the next instruction.
