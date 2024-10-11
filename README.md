@@ -1,5 +1,6 @@
 # DESIGN-OF-32-BIT-RISC-V-PROCESSOR-WITH-FIVE-STAGE-PIPELINE
-1. Instruction Fetch
+
+# 1. Instruction Fetch
 
 1.1. Functions of the Instruction Fetch Stage
 - Fetching Instructions: The IF stage retrieves instructions from the program memory based on the value of the Program Counter (PC).
@@ -28,7 +29,7 @@ PCF values: 32’h0000002c, 32’h00000030.
 Corresponding InstrF: 32’h005203b3, 32’h402393b3.
 ![image](https://github.com/user-attachments/assets/3556d1ae-f3e7-4e5f-8ec3-a3dda994fbfe)
 
-2. Instruction Decode
+# 2. Instruction Decode
 
 2.1. Functions of the Instruction Decode Stage
 The ID stage is responsible for converting the instruction from binary code into a form that can be used by the following stages in the pipeline.
